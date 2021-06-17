@@ -1,0 +1,23 @@
+<html>
+    <body>
+        <h1>CRUD Application</h1>
+        <h1>add User</h1>
+        <form action="/addUser" method="POST">
+            User ID<input type="text" id="userid" name="userid"><br>
+            Name<input type="text" id="username" name="username"><br>
+            DOB<input type="text" id="dob" name="dob"><br>
+            Profession<input type="text" id="profession" name="profession"><br>
+            <button type="submit" name="submit">Add User</button>
+        </form>
+        <h1>get Specific User Details</h1>
+        <form action="/particularUser" method="post">
+            User ID<input type="text" id="urid" name="urid"><br>
+            <button type="submit" name="submit">Get User Info</button>
+        </form>
+        <h1>Delete Specific User Details</h1>
+        <form action="/deleteUser" method="post">
+            User ID<input type="text" id="uid" name="uid"><br>
+            <button type="submit" name="submit">Delete User Info</button>
+        </form>
+    </body>
+</html>
